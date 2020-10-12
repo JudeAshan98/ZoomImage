@@ -2,18 +2,15 @@ package com.example.zoomimage;
 
 import android.content.Context;
 import android.graphics.Canvas;
-import android.graphics.Matrix;
-import android.graphics.Paint;
-import android.graphics.drawable.BitmapDrawable;
-import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
-import android.util.Log;
 import android.view.MotionEvent;
 import android.view.ScaleGestureDetector;
 import android.widget.ImageView;
 
+import androidx.appcompat.app.AppCompatActivity;
 
-public class MyImageView extends androidx.appcompat.widget.AppCompatImageView {
+
+public class MyImageView extends ImageView {
 
     private static final int INVALID_POINTER_ID = -1;
 
