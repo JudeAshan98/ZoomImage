@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.testlayout);
 
-        table+2Layout = findViewById(R.id.table);
+        tableLayout = findViewById(R.id.table);
         scrollView = findViewById(R.id.scroll);
         Zoom1 = findViewById(R.id.zoom1x);
         Zoom2 = findViewById(R.id.Zoom2x);
