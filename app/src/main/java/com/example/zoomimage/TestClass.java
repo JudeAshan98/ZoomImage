@@ -39,7 +39,7 @@ public class TestClass extends AppCompatActivity implements View.OnTouchListener
 
 
     private void bindViews(View rootView) {
-        mPhotoBox = (FrameLayout) rootView.findViewById(R.id.fotoBox);
+     //   mPhotoBox = (FrameLayout) rootView.findViewById(R.id.fotoBox);
 
         mOrologio = (ImageView) rootView.findViewById(R.id.imgOrologio);
         mOrologio.setOnTouchListener(this);
